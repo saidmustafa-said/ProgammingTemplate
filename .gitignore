@@ -1,0 +1,31 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore local and remote state lock files
+terraform.lock
+backend.tflock
+
+# Ignore local provider configuration files
+.terraform/local-exec/
+
+# Ignore generated files (unless you specifically want them)
+.terraform/output/
+.terraform/plan/
+.terraform/cache/
+
+
+# Optional: ignore potential sensitive files
+.terraform/credentials
+
+# Optional: ignore local backend configuration files
+backend.tfvars
