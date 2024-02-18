@@ -29,3 +29,6 @@ backend.tflock
 
 # Optional: ignore local backend configuration files
 backend.tfvars
+
+#Notes
+Guide.md
